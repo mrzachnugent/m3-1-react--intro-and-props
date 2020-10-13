@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.message-blocks {
+  padding: 10px 20px;
+}
+
+.username {
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 65px;
+}
+
+.picture-message-received {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.message-body {
+  background: #e9e9eb;
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 15px;
+  margin-left: 10px;
+  font-size: 17px;
+  color: #000;
+  position: relative;
+}
+
+.message-body > img {
+  position: absolute;
+  bottom: 5px;
+  left: -10px;
+}
+
+.message-sent {
+  background: #1185f7;
+  float: right;
+  padding: 8px 10px;
+  border-radius: 15px;
+  margin-left: 10px;
+  font-size: 17px;
+  color: #fff;
+  position: relative;
+}
+
+.message-sent > img {
+  position: absolute;
+  bottom: 5px;
+  right: -10px;
+}
+
+.picture-message-sent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
