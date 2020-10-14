@@ -14,6 +14,7 @@ const ReceivedMessage = (props) => {
             <img src="/assets/tip-received.svg" alt="" />
           </p>
         </div>
+        <p className="timestamp-received">{props.message.timestamp}</p>
       </div>
     </div>
   );
@@ -29,6 +30,7 @@ const SentMessage = (props) => {
             <img src="/assets/tip-sent.svg" alt="" />
           </p>
         </div>
+        <p className="timestamp-sent">{props.message.timestamp}</p>
       </div>
     </div>
   );
@@ -36,9 +38,21 @@ const SentMessage = (props) => {
 
 const ChatMessage = (props) => {
   if (props.messageType === "sent") {
-    return <SentMessage user={props.user} body={props.body} />;
+    return (
+      <SentMessage
+        user={props.user}
+        body={props.body}
+        message={props.message}
+      />
+    );
   } else {
-    return <ReceivedMessage user={props.user} body={props.body} />;
+    return (
+      <ReceivedMessage
+        user={props.user}
+        body={props.body}
+        message={props.message}
+      />
+    );
   }
 };
 

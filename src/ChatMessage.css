@@ -41,6 +41,20 @@
   left: -10px;
 }
 
+.timestamp-received {
+  font-size: 12px;
+  opacity: 0.6;
+  padding-left: 60px;
+}
+
+.timestamp-sent {
+  font-size: 12px;
+  opacity: 0.6;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 3px;
+}
+
 .message-sent {
   background: #1185f7;
   float: right;

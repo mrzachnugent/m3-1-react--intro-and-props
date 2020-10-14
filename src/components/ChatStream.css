@@ -9,4 +9,6 @@
 */
 .chat-stream {
   flex: 1;
+  margin-left: 400px;
+  margin-right: 5px;
 }

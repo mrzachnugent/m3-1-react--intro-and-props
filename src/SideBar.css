@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.side-bar {
+  z-index: -1;
+  background: #fbfbfb;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 400px;
+  height: 130%;
+}
+
+.new-convo-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15),
+    0px 1px 0.5px rgba(0, 0, 0, 0.075);
+}
+
+.add-btn {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  background: linear-gradient(45deg, #00d9ff, #0087e0);
+  border-radius: 50%;
+}
+
+.plus-line-1,
+.plus-line-2 {
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.plus-line-1 {
+  width: 25px;
+  height: 3px;
+}
+
+.plus-line-2 {
+  height: 25px;
+  width: 3px;
+}
+
+.new-convo-text {
+  padding-left: 15px;
+  font-size: 17px;
+}
+
+.conversations {
+  background: rgba(0, 0, 0, 0.054);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 10px;
+}
+
+.group-avatars {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.conversations-description {
+}
+
+.group-headline {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.group-title {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.convo-timestamp {
+  font-size: 13px;
+}
+
+.last-message {
+  opacity: 0.6;
+}
+
+.bottom-side-bar {
+  position: fixed;
+  bottom: 0;
+  width: 400px;
+  height: 60px;
+
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15),
+    0px 1px 0.5px rgba(0, 0, 0, 0.075);
+}

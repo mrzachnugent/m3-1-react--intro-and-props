@@ -26,6 +26,7 @@ const ChatStream = (props) => {
             user={message.user}
             body={message.body}
             messageType={messageType}
+            message={message}
           />
         );
       })}

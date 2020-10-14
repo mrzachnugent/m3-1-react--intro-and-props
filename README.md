@@ -1,5 +1,7 @@
 # 3-1 - Intro to React and Props
 
+<img src="./public/assets/react-stretch.png">
+
 ## Setup
 
 This workshop uses **Create React App**, a project from Facebook designed to make it easy to get started building a React application.
